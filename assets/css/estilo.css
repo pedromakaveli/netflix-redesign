@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
+
+:root{
+    --primary-color: #131315;
+    --gap: 5rem;
+    --color-red: #b82124;
+    --red-button: #c50102;
+    --white-color: #d7d7d7;
+    --star-color: #bcb323;
+    --gray-color: #a3a3a4;
+    --border-button: #272827;
+    --black-button: #121011;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+a, button{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+li, a, button{
+    font-size: 1.6rem;
+}
+
+button{
+    background: none;
+
+}
+
+h1{
+    font-size: 6rem
+}
+
+h2{
+    font-size: 4.5rem
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 3rem;
+    background: var(--primary-color);
+    color: var(--white-color);
+}
+
+.section{
+    height: 100vh;
+}
+
+.main-content{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: var(--gap);
+}
+
+
+header{
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.menu-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.logo{
+    padding-right: 15px;
+    width: 11.5rem;
+}
+
+.thumb{
+      width: 34px;
+  
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+}
+
+.menu ul li a{
+    display: block;
+    padding: 2rem 1.2rem;
+    font-size: 1.6rem;
+    letter-spacing: -0.5px;
+    color: var(--white-color);
+    transition: all 0.5s ease;
+}
+
+.menu li a:hover{
+    color: var(--gray-color);
+}
+
+.main-bg{
+    background: url('../img/main-bg.png') ;
+    background-size: cover;
+    
+    background-position: center center;
+    object-fit: cover;
+}
+
+.fas{
+
+    font-size: 2.2rem;
+    color: var(--white-color);
+}
+
+
+.main-bg{
+    z-index: -1;
+}
+
+.intro{
+    display: flex;
+    justify-content: center;
+  
+    flex-flow: column;
+    height: 100vh;
+}
+
+.avaliacao{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.3rem;
+   
+}
+
+.year{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.year, .hours{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+
+.fa-star{
+    color: var(--star-color);
+    padding: -5px;
+    font-size: 1.8rem;
+    margin: 0;
+    padding: -250px;
+
+}
+
+.movie-logo{
+    margin-bottom: 8px;
+}
+
+
+.intro-text{
+    padding-top: 2rem;
+    width: 40vw;
+    text-align: justify;
+}
+
+.intro-text h2{
+    font-size: 2.9rem;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+    color: var(--white-color);
+    font-weight: bold;
+}
+
+.intro-text p{
+    font-size: 1.9rem;
+    padding-bottom: 3.5rem;
+    color: var(--gray-color);
+}
+
+.cta-intro{
+    margin-right: 1.0rem;
+}
+
+.cta-play{
+    background-color: var(--red-button);
+    font-size: 1.8rem;
+    color:var(--white-color);
+    border: none;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 1.6rem 10% 1.6rem 5%;
+}
+
+.cta-more-info{
+    border: 2px solid var(--border-button);
+    padding-right: 4%;
+    font-weight: 200;
+    background:var(--black-button);
+    color: var(--white-color);
+}
+
+.fa-play{
+    font-size: 1.8rem;
+    padding-right: 15px;
+}
+
+.fa-info-circle{
+    color: var(--primary-color);
+    padding-right: 8px;
+}
+
+.fa-heart{
+    color: var(--white-color);
+    padding-right: 8px;
+}
+
