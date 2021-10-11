@@ -1,3 +1,3 @@
 # netflix-redesign
 
-<img src="demo.png"/>
+<img src="../demo.png"/>
